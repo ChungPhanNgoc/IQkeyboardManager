@@ -67,7 +67,7 @@ extern NSInteger const kIQPreviousNextButtonToolbarTag;
  Enable/disable managing distance between keyboard and textField. Default is YES(Enabled when class loads in `+(void)load` method).
  */
 @property(nonatomic, assign, getter = isEnabled) BOOL enable;
-
+@property(nonatomic, assign, getter = keyboardBottom) CGFloat keyboardBottom;
 /**
  To set keyboard distance from textField. can't be less than zero. Default is 10.0.
  */
